@@ -1,0 +1,14 @@
+{
+  "name": "directiv-test-benchmark",
+  "version": "0.1.0",
+  "description": "helpers for benchmarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "performance-now": "^0.1.4"
+  }
+}
